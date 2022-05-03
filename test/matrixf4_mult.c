@@ -1,5 +1,5 @@
 #include <assert.h>
-#include <n-math.h>
+#include <nv_math.h>
 
 int main() {
   float a[4][4] = {

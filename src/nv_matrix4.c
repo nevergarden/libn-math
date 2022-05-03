@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-#include "n-math.h"
+#include <xmmintrin.h>
+#include "nv_matrix4.h"
 
 static inline void n_fmatrix_4x4_mult_sse(const float a[4][4], const float b[4][4], float c[4][4]) {
   __m128 row1 = _mm_load_ps(&b[0][0]);
